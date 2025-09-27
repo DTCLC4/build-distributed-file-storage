@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build output
+/dist
+/build
+/*.tsbuildinfo
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Data storage (files saved by nodes)
+data/
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

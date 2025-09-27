@@ -1,0 +1,31 @@
+{
+  "name": "build-distributed-file-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTCLC4/build-distributed-file-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTCLC4/build-distributed-file-storage/issues"
+  },
+  "homepage": "https://github.com/DTCLC4/build-distributed-file-storage#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "dotenv": "^17.2.2",
+    "prettier": "^3.6.2"
+  }
+}
