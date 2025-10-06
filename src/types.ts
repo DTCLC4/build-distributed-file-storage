@@ -12,11 +12,9 @@ export type Identity = {
 }
 
 export type Message =
-  | { type: 'JOIN'; nodeId: string; address?: string }
   | { type: 'STORE'; fileId: string; chunk: string; from: string; fileName: string }
-  | { type: 'GET'; fileId: string; from: string }
-  | { type: 'PING' | 'PONG'; from: string }
-  | { type: 'CHUNK'; fileId: string; chunk: string; from: string; fileName?: string }
+  | { type: 'PING' | 'PONG'; from: string, port?: number }
+
 
 export type PeerInfo = {
   nodeId: string
